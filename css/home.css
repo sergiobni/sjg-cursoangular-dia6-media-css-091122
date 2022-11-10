@@ -1,0 +1,47 @@
+body {
+  background-color: cornflowerblue;
+}
+.container {
+  background-color: blueviolet;
+  height: 100vh;
+}
+.colum {
+  background-color: coral;
+  height: 8vh;
+  border: 1px solid brown;
+}
+.main {
+  height: 42vh;
+}
+
+.titulo {
+  background-color: black;
+  text-align: left;
+  color: red;
+}
+
+.maincontent {
+  background-color: coral;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  background-color: black;
+}
+
+.video {
+  background-color: aqua;
+  border-color: 1px solid blueviolet;
+}
+.footer {
+  background-color: coral;
+  height: 5vh;
+  border: 1px solid brown;
+}
+ul {
+  list-style-type: none;
+  line-height: 2.8em;
+}
+li {
+  display: inline;
+  padding-right: 0.5em;
+}
